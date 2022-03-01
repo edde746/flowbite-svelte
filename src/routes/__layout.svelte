@@ -23,6 +23,7 @@
     spinners,
     svelteflows,
     tabs,
+    tooltips,
     topMenus,
   } from "./items.js";
 
@@ -169,6 +170,14 @@
   <Nav {navClass} navDivClass={navDivClasslast}>
     <h3 class="text-base pb-4"><a href="/tabs" rel="external">Tabs</a></h3>
     {#each tabs as { url, name, rel }}
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
+    {/each}
+  </Nav>
+  <Nav {navClass} {navDivClass}>
+    <h3 class="text-base pb-4">
+      <a href="/tooltips" rel="external">Tooltips <Badge name="NEW" /></a>
+    </h3>
+    {#each tooltips as { url, name, rel }}
       <SidebarList {url} {name} {rel} {sideBarListClass} />
     {/each}
   </Nav>

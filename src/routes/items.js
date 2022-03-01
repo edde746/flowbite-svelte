@@ -85,6 +85,11 @@ export let tabs = [
   { url: "tabs/pilltabs", name: "Pilltabs" },
 ];
 
+export let tooltips = [
+  { url: "tooltips/default", name: "Default" },
+  { url: "tooltips/light", name: "Light tooltip" },
+];
+
 export let topMenus = [
   { link: "/", name: "Home" },
   { link: "/about", name: "About" },
