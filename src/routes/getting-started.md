@@ -57,3 +57,5 @@ const config = {
 
 module.exports = config;
 ```
+
+Now you are ready to go!
