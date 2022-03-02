@@ -6,7 +6,7 @@ layout: doc
   import { Navbar } from "flowbite-svelte";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Navbar Setup</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Navbar Setup</h1>
 
 
 ```svelte
@@ -38,7 +38,7 @@ layout: doc
 <Navbar {menus} {sitename} {alt} {logo} {textsize} />
 ```
 
-<h2 class="text-lg mt-8 dark:text-white">Text Size text-xs</h2>
+<h2 class="text-lg dark:text-white py-4">Text Size text-xs</h2>
 
 ```svelte
 <Navbar textsize="text-xs" />
@@ -48,7 +48,7 @@ layout: doc
 <Navbar textsize="text-xs" />
 </div>
 
-<h2 class="text-lg mt-8 dark:text-white">Text Size text-sm</h2>
+<h2 class="text-lg dark:text-white py-4">Text Size text-sm</h2>
 
 ```svelte
 <Navbar textsize="text-sm" />
@@ -58,7 +58,7 @@ layout: doc
 <Navbar textsize="text-sm" />
 </div>
 
-<h2 class="text-lg mt-8 dark:text-white">Text Size text-base</h2>
+<h2 class="text-lg dark:text-white py-4">Text Size text-base</h2>
 
 ```svelte
 <Navbar textsize="text-base" />
@@ -68,7 +68,7 @@ layout: doc
 <Navbar textsize="text-base" />
 </div>
 
-<h2 class="text-lg mt-8 dark:text-white">Text Size text-lg</h2>
+<h2 class="text-lg dark:text-white py-4">Text Size text-lg</h2>
 
 ```svelte
 <Navbar textsize="text-lg" />
@@ -78,7 +78,7 @@ layout: doc
 <Navbar textsize="text-lg" />
 </div>
 
-<h2 class="text-lg mt-8 dark:text-white">Text Size text-xl</h2>
+<h2 class="text-lg dark:text-white py-4">Text Size text-xl</h2>
 
 ```svelte
 <Navbar textsize="text-xl" />
