@@ -11,7 +11,7 @@ layout: doc
 
 <h1 class="text-3xl w-full text-gray-900 dark:text-white py-4">Badges with icon</h1>
 
-<p class="text-lg w-full text-gray-900 dark:text-white py-4">You can use <a href="https://github.com/shinokada/svelte-heroicons" target="_blank" class="underline">Svelte-heroicon.</a></p>
+<p class="text-lg w-full text-gray-900 dark:text-white py-4">You can use <a href="https://github.com/shinokada/svelte-heroicons" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">Svelte-heroicon.</a></p>
 
 ```svelte
 <script>

@@ -28,7 +28,7 @@
           >
             Speed up your web development with Flowbite Svelte. Flowbite Svelte
             is an unofficxial Flowbite compoents for Svelte. All
-            interactiveities are done by Svelte.
+            interactiveities are handled by Svelte.
           </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="mt-3 sm:mt-0 sm:ml-3">
