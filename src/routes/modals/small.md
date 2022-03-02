@@ -191,7 +191,7 @@ eiusmod tempor incididunt ut labore et dolore magna aliqua.
     eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </SmallModal>
 
-<h1 class="text-3xl w-full dark:text-white pb-8">References</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">References</h1>
 
 <p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/modal/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">Flowbite Modal</a></p>
 

@@ -53,6 +53,6 @@ layout: doc
   </HorizontalCard>
 </div>
 
-<h1 class="text-3xl w-full dark:text-white pb-8">References</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">References</h1>
 
 <p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/card/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">- Flowbite Card</a></p>
