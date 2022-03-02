@@ -42,7 +42,7 @@
   let siteClass = " pt-1.5 pl-12 w-full";
   let siteText = "text-lg";
   let topli =
-    "block py-2 pr-4 pl-3 text-gray-700 md:border-0  md:p-0 dark:text-gray-300  dark:hover:bg-gray-700  text-lg z-50 dark:bg-gray-800 dark:border-0";
+    "block py-2 pr-4 pl-3 text-gray-700 md:border-0  md:p-0 dark:text-gray-300  dark:hover:bg-gray-700  text-lg z-50 dark:bg-gray-800 dark:border-0 hover:bg-gray-100 bg-white";
   let topMenuDiv =
     "container flex flex-wrap justify-end items-center mx-auto dark:bg-gray-800";
   let topul =
