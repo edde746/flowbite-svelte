@@ -7,14 +7,14 @@
     <Card
       img="/images/tooltip.webp"
       header="Default Tooltip"
-      link="/tooltip/default"
+      link="/tooltips/default"
     />
   </div>
   <div class="p-4">
     <Card
       img="/images/tooltip.webp"
       header="Light Tooltip"
-      link="/tooltip/light"
+      link="/tooltips/light"
     />
   </div>
 </div>
