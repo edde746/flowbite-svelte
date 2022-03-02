@@ -1,50 +1,63 @@
-# FLOWBITE SVELTE
-
-Svelte is a modern and growing front-end compiler. Developers build boilerplate-free components using languages HTML, CSS and JavaScript. Svelte compiles your code to tiny, framework-less vanilla JS.
+# FLOWBITE-SVELTE
 
 [Flowbite-Svelte](https://flowbite-svelte.vercel.app/) is an unofficial Flowbite component library for Svelte. All interactivities are handled by Svelte.
 
-## Install SvelteKit and Tailwind CSS
+## Installation
 
-Before anything make sure that you install SvelteKit and Tailwind CSS. If you already have them installed, you can proceed to the next step.
+[Getting started](https://flowbite-svelte.vercel.app/getting-started)
 
-```bash
-npm init svelte@next sveltekit-demo
-cd sveltekit-demo
+## Accordion components
 
-npm install
-npx svelte-add@latest tailwindcss
-```
+[Accordions](https://flowbite-svelte.vercel.app/accordions)
 
-## Install Flowbite-Svelte
+## Alert components
 
+[Alerts](https://flowbite-svelte.vercel.app/alerts)
 
-Install Flowbite-Svelte using NPM:
+## Badges components
 
-```bash
-npm i -D flowbite-svelte
-```
+[Badges](https://flowbite-svelte.vercel.app/badges)
 
-Update the `tailwind.config.js` file with the following details:
+## Button component
 
-```bash
-const config = {
-  content: [
-    "./src/**/*.{html,js,svelte,ts}",
-    "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",
-  ],
+[Buttons](https://flowbite-svelte.vercel.app/buttons)
 
-  theme: {
-    extend: {},
-  },
+## Card components
 
-  plugins: [
-    require('flowbite/plugin')
-  ],
-  darkMode: 'class',
-};
+[Cards](https://flowbite-svelte.vercel.app/cards)
 
-module.exports = config;
-```
+## Dark mode component
 
-Now you are ready to go.
+[Dark mode](https://flowbite-svelte.vercel.app/darkmode)
+
+## Dropdown components
+
+[Dropdowns](https://flowbite-svelte.vercel.app/dropdowns)
+
+## Icons
+
+[Icons](https://flowbite-svelte.vercel.app/icons)
+
+## List group component
+
+[List group](https://flowbite-svelte.vercel.app/list-group)
+
+## Modal components
+
+[Modals](https://flowbite-svelte.vercel.app/modals)
+
+## Navbar components
+
+[Navbars](https://flowbite-svelte.vercel.app/navbar)
+
+## Spinner components
+
+[Spinners](https://flowbite-svelte.vercel.app/spinners)
+
+## Tab components
+
+[Tabs](https://flowbite-svelte.vercel.app/tabs)
+
+## Tooltip components
+
+[Tooltips](https://flowbite-svelte.vercel.app/tooltips)
