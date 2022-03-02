@@ -6,11 +6,11 @@ layout: doc
   import { Alert, BorderAlert, InfoAlert } from "flowbite-svelte";
 </script>
 
-<h1 class="text-3xl w-full text-gray-900 dark:text-white my-8">Alert</h1>
+<h1 class="text-3xl w-full text-gray-900 dark:text-white py-4">Alert</h1>
 
-<h2 class="text-2xl w-full dark:text-white">Set up</h2>
+<h2 class="text-2xl w-full dark:text-white py-4">Set up</h2>
 
-<p class="text-gray-900 dark:text-white">
+<p class="text-gray-900 dark:text-white py-4">
 Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 </p>
 
@@ -21,7 +21,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 ```
 
 
-<h2 class="text-2xl w-full text-gray-900 dark:text-white">InfoAlert Default Props</h2>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">InfoAlert Default Props</h2>
 
 ```js
 let color = "blue"; // gray | red | yellow | green | indigo | purple | pink 
@@ -30,7 +30,7 @@ let infoLink = false;
 let closeBtn = false;
 ```
 
-<h1 class="text-2xl w-full text-gray-900 dark:text-white my-8">Information Alert Examples</h1>
+<h1 class="text-2xl w-full text-gray-900 dark:text-white py-4">Information Alert Examples</h1>
 
 ```svelte
 <InfoAlert>

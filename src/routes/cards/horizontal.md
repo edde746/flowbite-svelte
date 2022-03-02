@@ -6,9 +6,9 @@ layout: doc
   import { HorizontalCard } from "flowbite-svelte";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Horizontal Card</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Horizontal Card</h1>
 
-<h2 class="text-2xl w-full dark:text-white">Set up</h2>
+<h2 class="text-2xl w-full dark:text-white py-4">Set up</h2>
 
 ```svelte
 <script>
@@ -16,7 +16,7 @@ layout: doc
 </script>
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Horizontal Card</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Horizontal Card</h1>
 
 ```svelte
 <HorizontalCard

@@ -28,9 +28,9 @@ layout: doc
   let link2 = { href: "/", title: "About" };
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Interactive Card</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Interactive Card</h1>
 
-<h2 class="text-2xl w-full dark:text-white">Set up</h2>
+<h2 class="text-2xl w-full dark:text-white py-4">Set up</h2>
 
 ```html
 <script>
@@ -60,7 +60,7 @@ layout: doc
 </script>
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Interactive cards</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Interactive cards</h1>
 
 ```html
 <InteractiveCard 

@@ -6,11 +6,11 @@ layout: doc
   import { SignInCard } from "flowbite-svelte";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">SignInCard</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">SignInCard</h1>
 
-<h2 class="text-2xl w-full dark:text-white">Set up</h2>
+<h2 class="text-2xl w-full dark:text-white py-4">Set up</h2>
 
-<p class="dark:text-white">Import SignInCard in the script tag.</p>
+<p class="dark:text-white py-4">Import SignInCard in the script tag.</p>
 
 ```svelte
 <script>
@@ -18,7 +18,7 @@ layout: doc
 </script>
 ```
 
-<h2 class="text-xl w-full mt-8 dark:text-white">SignInCard</h2>
+<h2 class="text-xl w-full mt-8 dark:text-white py-4">SignInCard</h2>
 
 ```svelte
  <SignInCard id="id1" btnSignInColor="red" />

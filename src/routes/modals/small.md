@@ -47,11 +47,11 @@ layout: doc
   };
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Small Modals</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Small Modals</h1>
 
-<h2 class="text-2xl w-full dark:text-white">Set up</h2>
+<h2 class="text-2xl w-full dark:text-white py-4">Set up</h2>
 
-<p class="dark:text-white my-4">Import SmallModal, ModalButton, modalIdStor components and set variables in the script tag. Add `closeModal` method if you want to close the modal in a button.</p>
+<p class="dark:text-white py-4">Import SmallModal, ModalButton, modalIdStor components and set variables in the script tag. Add `closeModal` method if you want to close the modal in a button.</p>
 
 ```svelte
 <script>
@@ -100,13 +100,13 @@ layout: doc
 </script>
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Small Modals</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Small Modals</h1>
 
 <div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <ModalButton id={idBasic} btnName={btnBasicName} />
 </div>
 
-<p class="dark:text-white pb-4">Create a button and modal.</p>
+<p class="dark:text-white py-4">Create a button and modal.</p>
 
 ```svelte
 <ModalButton id={idBasic} btnName={btnBasicName} />
@@ -115,7 +115,7 @@ layout: doc
 </SmallModal>
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Small Modals with Action Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Small Modals with Action Buttons</h1>
 
 <div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <ModalButton id={id1} btnName={btnName1} btnColor={btnColor1} />
@@ -137,7 +137,7 @@ layout: doc
 </SmallModal>
 ```
 
-<h1 class="text-3xl w-full dark:text-white">Small Modals with different colors</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Small Modals with different colors</h1>
 
 <div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <ModalButton id={id2} btnName={btnName2} btnColor={btnColor2} />

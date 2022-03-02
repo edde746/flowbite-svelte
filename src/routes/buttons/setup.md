@@ -14,11 +14,11 @@ layout: doc
   }
 </script>
 
-<h1 class="text-3xl w-full dark:text-white mb-8">Buttons</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Buttons</h1>
 
-<h2 class="text-2xl w-full dark:text-white">Set up</h2>
+<h2 class="text-2xl w-full dark:text-white py-4">Set up</h2>
 
-<p class="dark:text-white">Import Button in the script tag.</p>
+<p class="dark:text-white py-4">Import Button in the script tag.</p>
 
 ```svelte
 <script>
@@ -26,9 +26,9 @@ layout: doc
 </script>
 ```
 
-<h2 class="text-2xl w-full text-gray-900 dark:text-white">Button handler</h2>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Button handler</h2>
 
-<p class="dark:text-white">You can use on:click to listen to the event. Add your event handler.</p>
+<p class="dark:text-white py-4">You can use on:click to listen to the event. Add your event handler.</p>
 
 ```svelte
 <script>

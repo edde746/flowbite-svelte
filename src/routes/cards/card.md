@@ -6,11 +6,11 @@ layout: doc
   import { Card } from "flowbite-svelte";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Card</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Card</h1>
 
-<h2 class="text-2xl w-full dark:text-white">Set up</h2>
+<h2 class="text-2xl w-full dark:text-white py-4">Set up</h2>
 
-<p class="dark:text-white">Import Card in the script tag.</p>
+<p class="dark:text-white py-4">Import Card in the script tag.</p>
 
 ```svelte
 <script>
@@ -18,7 +18,7 @@ layout: doc
 </script>
 ```
 
-<h2 class="text-xl w-full mt-8 dark:text-white">Simple Card</h2>
+<h2 class="text-xl w-full mt-8 dark:text-white py-4">Simple Card</h2>
 
 ```svelte
 <Card header="Simple card with header and content">
@@ -34,7 +34,7 @@ layout: doc
   </Card>
 </div>
 
-<h2 class="text-xl w-full mt-8 dark:text-white">Card with Link</h2>
+<h2 class="text-xl w-full mt-8 dark:text-white py-4">Card with Link</h2>
 
 ```svelte
 <Card header="Card with link" link="/">
@@ -50,7 +50,7 @@ layout: doc
   </Card>
 </div>
 
-<h2 class="text-xl w-full mt-8 dark:text-white">Card with link and image</h2>
+<h2 class="text-xl w-full mt-8 dark:text-white py-4">Card with link and image</h2>
 
 ```svelte
 <Card img="/images/image-1.jpeg" header="Card with link and image" link="/">
@@ -66,7 +66,7 @@ layout: doc
   </Card>
 </div>
 
-<h2 class="text-xl w-full mt-8 dark:text-white">Card with image</h2>
+<h2 class="text-xl w-full mt-8 dark:text-white py-4">Card with image</h2>
 
 ```svelte
 <Card img="/images/image-2.jpeg" header="Card with image"
@@ -82,7 +82,7 @@ layout: doc
   </Card>
 </div>
 
-<h2 class="text-xl w-full mt-8 dark:text-white">Card with red button</h2>
+<h2 class="text-xl w-full mt-8 dark:text-white py-4">Card with red button</h2>
 
 ```svelte
 <Card
@@ -108,7 +108,7 @@ layout: doc
   </Card>
 </div>
 
-<h2 class="text-xl w-full mt-8 dark:text-white">Card with yellow button</h2>
+<h2 class="text-xl w-full mt-8 dark:text-white py-4">Card with yellow button</h2>
 
 ```svelte
 <Card
@@ -132,7 +132,7 @@ layout: doc
   </Card>
 </div>
 
-<h2 class="text-xl w-full mt-8 dark:text-white">Card with purple button</h2>
+<h2 class="text-xl w-full mt-8 dark:text-white py-4">Card with purple button</h2>
 
 ```svelte
 <Card

@@ -16,11 +16,11 @@ layout: doc
   let btnSignInColor = "blue";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white">Sign-in Modals</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Sign-in Modals</h1>
 
-<h2 class="text-2xl w-full dark:text-white">Set up</h2>
+<h2 class="text-2xl w-full dark:text-white py-4">Set up</h2>
 
-<p class="dark:text-white text-base">Import SignInModal, ModalButton components and set variables in the script tag.</p>
+<p class="dark:text-white text-base py-4">Import SignInModal, ModalButton components and set variables in the script tag.</p>
 
 ```svelte
 import { SignInModal, ModalButton, modalIdStore } from "flowbite-svelte";
@@ -30,7 +30,7 @@ let btnSignInName = "Sign In Modal";
 let btnSignInColor = "blue";
 ```
 
-<h1 class="text-3xl w-full dark:text-white">SignIn Modals</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">SignIn Modals</h1>
 
 <div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
   <ModalButton
@@ -40,7 +40,7 @@ let btnSignInColor = "blue";
   />
 </div>
 
-<p class="dark:text-white text-base">Create a button and modal.</p>
+<p class="dark:text-white text-base py-4">Create a button and modal.</p>
 
 ```svelte
 <ModalButton

@@ -8,9 +8,9 @@ layout: doc
 
 <h1 class="text-3xl w-full text-gray-900 dark:text-white my-8">Alert</h1>
 
-<h2 class="text-2xl w-full dark:text-white">Set up</h2>
+<h2 class="text-2xl w-full dark:text-white py-4">Set up</h2>
 
-<p class="text-gray-900 dark:text-white">
+<p class="text-gray-900 dark:text-white py-4">
 Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 </p>
 
@@ -20,7 +20,7 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 </script>
 ```
 
-<h2 class="text-2xl w-full text-gray-900 dark:text-white">Alert Default Props</h2>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Alert Default Props</h2>
 
 ```js
 let color = "blue"; // gray | red | yellow | green | indigo | purple | pink 
@@ -28,7 +28,7 @@ let alertId = "alert-1";
 let closeBtn = false;
 ```
 
-<h2 class="text-2xl w-full text-gray-900 dark:text-white my-8">Simple Alert Examples</h2>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Simple Alert Examples</h2>
 
 ```svelte
 <Alert alertId="alert-blue">

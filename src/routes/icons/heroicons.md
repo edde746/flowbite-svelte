@@ -15,14 +15,14 @@ layout: doc
   } from "@codewithshin/svelte-heroicons";
 </script>
 
-<h1 class="text-3xl w-full dark:text-white mb-4">HeroIcons</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">HeroIcons</h1>
 
-<p class=" dark:text-white">Flowbite-svelte uses <a class="text-blue-600 hover:underline dark:text-blue-500" href="https://github.com/shinokada/svelte-heroicons" target="_blank">svelte-heroicons</a>.
+<p class="dark:text-white py-4">Flowbite-svelte uses <a class="text-blue-600 hover:underline dark:text-blue-500" href="https://github.com/shinokada/svelte-heroicons" target="_blank">svelte-heroicons</a>.
 You can find all the icon names from the <a class="text-blue-600 hover:underline dark:text-blue-500" href="https://github.com/shinokada/svelte-heroicons/blob/main/icon-names.md">repo</a>.</p>
 
-<p class=" dark:text-white">Svelte-heroicons allow you to change icon color and size by using TailwindCSS/Flowbite.</p>
+<p class=" dark:text-white py-4">Svelte-heroicons allow you to change icon color and size by using TailwindCSS/Flowbite.</p>
 
-<p class=" dark:text-white">If you need brand icons, use <a class="text-blue-600 hover:underline dark:text-blue-500" href="https://github.com/shinokada/svelte-simpleicons" target="_blank">Svelte-simpleicons</a>.</p>
+<p class=" dark:text-white py-4">If you need brand icons, use <a class="text-blue-600 hover:underline dark:text-blue-500" href="https://github.com/shinokada/svelte-simpleicons" target="_blank">Svelte-simpleicons</a>.</p>
 
 <h2 class="text-2xl w-full dark:text-white mt-8">Props</h2>
 
