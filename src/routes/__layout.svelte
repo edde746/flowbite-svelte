@@ -46,7 +46,7 @@
   let topMenuDiv =
     "container flex flex-wrap justify-end items-center mx-auto dark:bg-gray-800";
   let topul =
-    "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium pt-1 dark:bg-gray-800";
+    "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium pt-1 dark:bg-gray-800 bg-white";
   // Others
   let asideClass =
     "absolute w-auto bg-white pt-8 shadow-lg z-50 px-4 h-full bg-white dark:bg-gray-800";
