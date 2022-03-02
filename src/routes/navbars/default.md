@@ -4,6 +4,7 @@ layout: doc
 
 <script>
   import { Navbar } from "flowbite-svelte";
+  let sitename = "Flowbite Svelte";
 </script>
 
 <h1 class="text-3xl w-full dark:text-white py-4">Navbar Setup</h1>
@@ -12,7 +13,7 @@ layout: doc
 ```svelte
 <script>
   import { Navbar } from "flowbite-svelte";
-  let sitename = "flowbite-svelte";
+  let sitename = "Flowbite Svelte";
   let logo = "/images/mkdir-logo.webp";
   let alt = "flowbite-svelte";
   let textsize = "text-lg";
@@ -45,7 +46,7 @@ layout: doc
 ```
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<Navbar textsize="text-xs" />
+<Navbar textsize="text-xs" {sitename} />
 </div>
 
 <h2 class="text-lg dark:text-white py-4">Text Size text-sm</h2>
@@ -55,7 +56,7 @@ layout: doc
 ```
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<Navbar textsize="text-sm" />
+<Navbar textsize="text-sm" {sitename} />
 </div>
 
 <h2 class="text-lg dark:text-white py-4">Text Size text-base</h2>
@@ -65,7 +66,7 @@ layout: doc
 ```
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<Navbar textsize="text-base" />
+<Navbar textsize="text-base" {sitename} />
 </div>
 
 <h2 class="text-lg dark:text-white py-4">Text Size text-lg</h2>
@@ -75,7 +76,7 @@ layout: doc
 ```
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<Navbar textsize="text-lg" />
+<Navbar textsize="text-lg" {sitename} />
 </div>
 
 <h2 class="text-lg dark:text-white py-4">Text Size text-xl</h2>
@@ -85,5 +86,5 @@ layout: doc
 ```
 
 <div class="container w-full rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<Navbar textsize="text-xl" />
+<Navbar textsize="text-xl" {sitename}  />
 </div>
