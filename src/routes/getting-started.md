@@ -58,4 +58,4 @@ const config = {
 module.exports = config;
 ```
 
-Now you are ready to go!
+<p class="dark:text-white py-4">Now you are ready to go!</p>

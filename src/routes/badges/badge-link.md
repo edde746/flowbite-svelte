@@ -22,7 +22,7 @@ layout: doc
 ```js
 let textSize = "text-xs"; // text-sm
 let name = "Read more"; 
-let color = "blue"; // gray | red | green | yellow | indigo | purple | pink
+let color = "blue"; // {gray|red|yellow|green|indigo|purple|pink} 
 let link = "/";
 ```
 

@@ -26,7 +26,7 @@ layout: doc
 ```js
 let textSize = "text-xs"; // text-sm
 let name = "Read more";
-let color = "blue"; // gray | red | yellow | green | indigo | purple | pink 
+let color = "blue"; // {gray|red|yellow|green|indigo|purple|pink}  
 ```
 
 <h2 class="text-2xl w-full dark:text-white py-4">Size xs</h2>
