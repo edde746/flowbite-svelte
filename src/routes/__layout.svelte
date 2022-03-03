@@ -1,13 +1,13 @@
 <script>
   import "../app.css";
-  import { DarkMode, Badge } from "flowbite-svelte";
+  import { DarkMode, Badge, SocialMediaFooter } from "flowbite-svelte";
   import {
     Aside,
     Nav,
     SidebarList,
     Navbar,
   } from "@codewithshin/svelte-sidebar";
-
+  import { GithubIcon, TwitterIcon } from "@codewithshin/svelte-simpleicons";
   import {
     accordions,
     alerts,
@@ -16,6 +16,7 @@
     buttonGroups,
     cards,
     // darkmode,
+    footers,
     icons,
     // list_group,
     modals,
@@ -55,6 +56,47 @@
   let sideBarListClass =
     "border-b border-gray-400 dark:border-gray-500 mb-2 px-4 text-base";
   // activeDropdownDiv, activeChildLi, buttonClass, dropdownLi
+  let footerClass = "p-4 bg-white sm:p-6 dark:bg-gray-800 mt-40";
+  let socialMedia = [
+    {
+      link: "https://github.com/shinokada",
+      icon: GithubIcon,
+    },
+    {
+      link: "https://twitter.com/shinokada",
+      icon: TwitterIcon,
+    },
+  ];
+  let links = [
+    {
+      parent: "RESOURCES",
+      children: [
+        { name: "Flowbite-Svelte", link: "/" },
+        {
+          name: "Flowbite",
+          link: "https://flowbite.com/docs/getting-started/introduction/",
+        },
+        {
+          name: "Tailwind CSS",
+          link: "https://tailwindcss.com/docs/installation",
+        },
+      ],
+    },
+    {
+      parent: "FOLLOW US",
+      children: [
+        { name: "Github", link: "https://github.com/shinokada" },
+        {
+          name: "Twitter",
+          link: "https://twitter.com/shinokada",
+        },
+      ],
+    },
+    {
+      parent: "LEGAL",
+      children: [{ name: "License", link: "license" }],
+    },
+  ];
 </script>
 
 <Navbar
@@ -136,6 +178,14 @@
   </Nav>
   <Nav {navClass} {navDivClass}>
     <h3 class="text-base pb-4">
+      <a href="/footer" rel="external">Footer <Badge name="NEW" /></a>
+    </h3>
+    {#each footers as { url, name, rel }}
+      <SidebarList {url} {name} {rel} {sideBarListClass} />
+    {/each}
+  </Nav>
+  <Nav {navClass} {navDivClass}>
+    <h3 class="text-base pb-4">
       <a href="/icons" rel="external">Icons <Badge name="NEW" /></a>
     </h3>
     {#each icons as { url, name, rel }}
@@ -189,3 +239,4 @@
     <slot />
   </div>
 </main>
+<SocialMediaFooter {footerClass} {socialMedia} {links} />

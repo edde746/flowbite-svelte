@@ -36,9 +36,9 @@ layout: doc
 </script>
 
 
-<h1 class="text-3xl w-full mb-8 text-gray-900 dark:text-white">Button Group</h1>
+<h1 class="text-3xl w-full text-gray-900 dark:text-white py-4">Button Group</h1>
 
-<h2 class="text-2xl w-full text-gray-900 dark:text-white">Setup</h2>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Setup</h2>
 
 ```svelte
 <script>
@@ -75,7 +75,7 @@ layout: doc
 </script>
 ```
 
-<h2 class="text-2xl w-full text-gray-900 dark:text-white">Props</h2>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Props</h2>
 
 ```svelte
 let buttons = [
@@ -97,7 +97,7 @@ let buttons = [
 ];
 ```
 
-<h2 class="text-2xl w-full text-gray-900 dark:text-white">Default</h2>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Default</h2>
 
 <div
   class="container flex flex-wrap justify-evenly rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
@@ -109,7 +109,7 @@ let buttons = [
 <ButtonGroup buttons={buttons2}/>
 ```
 
-<h2 class="text-2xl w-full text-gray-900 dark:text-white">Default with icon</h2>
+<h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Default with icon</h2>
 
 <div
   class="container flex flex-wrap justify-evenly rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">

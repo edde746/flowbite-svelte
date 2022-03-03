@@ -49,6 +49,12 @@ export let cards = [
 // export let darkmode = [
 //   { url: "darkmode", name: "Dark mode" },
 // ]
+export let footers = [
+  { url: "footer/default", name: "Default" },
+  { url: "footer/logo", name: "Logo" },
+  { url: "footer/socialmedia", name: "Socialmedia" },
+  { url: "footer/sitemap", name: "Sitemap" },
+]
 
 export let icons = [
   { url: "icons/heroicons", name: "Heroicons" },

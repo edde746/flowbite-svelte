@@ -6,7 +6,7 @@ layout: doc
   import { Button } from "flowbite-svelte";
 </script>
 
-<h1 class="text-3xl w-full text-gray-900 dark:text-white">Button Props</h1>
+<h1 class="text-3xl w-full text-gray-900 dark:text-white py-4">Button Props</h1>
 
 ```js
 let rounded = true;

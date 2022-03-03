@@ -2,11 +2,13 @@
 layout: doc
 ---
 
+
 <script>
-  import {SimpleFooter} from 'flowbite-svelte'
+  import {LogoFooter} from 'flowbite-svelte'
   let site = {
     link: "/",
     name: "Flowbite Svelte",
+    img: "/images/mkdir-logo.png",
   };
   let links = [
     { name: "About", link: "/" },
@@ -15,18 +17,19 @@ layout: doc
   ];
 </script>
 
-<h1 class="text-3xl w-full dark:text-white py-4">Simple footer</h1>
+<h1 class="text-3xl w-full dark:text-white py-4">Footer with logo</h1>
 
 <div class="rounded-xl w-full my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
-<SimpleFooter {links}/>
+<LogoFooter {site} {links}/>
 </div>
 
 ```svelte
 <script>
-  import {SimpleFooter} from 'flowbite-svelte'
+  import {LogoFooter} from 'flowbite-svelte'
   let site = {
     link: "/",
     name: "Flowbite Svelte",
+    img: "/images/mkdir-logo.png",
   };
   let links = [
     { name: "About", link: "/" },
@@ -35,7 +38,7 @@ layout: doc
   ];
 </script>
 
-<SimpleFooter {links} {site}/>
+<LogoFooter {site} {links}/>
 ```
 
 <h2 class="text-2xl w-full dark:text-white py-4">Default props</h2>
@@ -44,6 +47,7 @@ layout: doc
 let site = {
   link: "/",
   name: "Flowbite Svelte",
+  img: "/images/mkdir-logo.png",
 };
 let links = [
   { name: "About", link: "/about", rel: undefined },
@@ -52,11 +56,18 @@ let links = [
   { name: "Contact", link: "/", rel: undefined },
 ];
 let footerClass =
-  "p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800";
+  "p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-800";
+let divClass = "sm:flex sm:items-center sm:justify-between";
 let siteNameClass =
-  "text-sm text-gray-500 sm:text-center dark:text-gray-400";
-let ulClass = "flex flex-wrap items-center mt-3 sm:mt-0";
-let aClass =
-  "mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400";
-let siteNameLinkClass = "hover:underline";
+  "self-center text-2xl font-semibold whitespace-nowrap dark:text-white";
+let ulClass =
+  "flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400";
+let aClass = "mr-4 hover:underline md:mr-6";
+let siteNameLinkClass = "flex items-center mb-4 sm:mb-0";
+let imgClass = "mr-3 h-8";
+let hrClass =
+  "my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8";
+let copyRightSpanClass =
+  "block text-sm text-gray-500 sm:text-center dark:text-gray-400";
+let copyRightLinkClass = "hover:underline";
 ```
