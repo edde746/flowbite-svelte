@@ -12,7 +12,7 @@ layout: doc
 let rounded = true;
 let textSize = "text-sm";
 let name = "Read more";
-let type = "blue"; // blue| dark | light | green | red | yellow | puple
+let type = "blue"; // | light | green | red | yellow | puple
 ```
 
 <h1 class="text-3xl w-full dark:text-white my-8">Size xs Rounded Buttons</h1>

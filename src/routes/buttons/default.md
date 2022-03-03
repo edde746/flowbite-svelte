@@ -14,7 +14,7 @@ layout: doc
 let rounded = false;
 let textSize = "text-sm";
 let name = "Read more";
-let type = "blue"; // blue| dark | light | green | red | yellow | puple
+let type = "blue"; // {blue|dark|light|green|red|yellow|puple}
 ```
 
 <h2 class="text-2xl w-full dark:text-white py-4">Size xs</h2>
