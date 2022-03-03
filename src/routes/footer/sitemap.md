@@ -225,4 +225,6 @@ let socialMediaDivClass =
   "flex mt-4 space-x-6 sm:justify-center md:mt-0";
 let socialMediaLinkClass = "text-gray-400 hover:text-white";
 let iconClass = "h-5 w-5 mr-2";
+let copyrightYear = "© 2022";
+let allRightsReserved = "All Rights Reserved.";
 ```

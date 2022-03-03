@@ -211,4 +211,6 @@ let socialMediaDivClass =
 let socialMediaLinkClass =
   "text-gray-500 hover:text-gray-900 dark:hover:text-white";
 let iconClass = "h-5 w-5 mr-2";
+let copyrightYear = "© 2022";
+let allRightsReserved = "All Rights Reserved.";
 ```

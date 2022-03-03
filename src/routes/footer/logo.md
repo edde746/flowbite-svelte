@@ -70,4 +70,6 @@ let hrClass =
 let copyRightSpanClass =
   "block text-sm text-gray-500 sm:text-center dark:text-gray-400";
 let copyRightLinkClass = "hover:underline";
+let copyrightYear = "© 2022";
+let allRightsReserved = "All Rights Reserved.";
 ```

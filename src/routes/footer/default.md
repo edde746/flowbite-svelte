@@ -59,4 +59,6 @@ let ulClass = "flex flex-wrap items-center mt-3 sm:mt-0";
 let aClass =
   "mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400";
 let siteNameLinkClass = "hover:underline";
+let copyrightYear = "© 2022";
+let allRightsReserved = "All Rights Reserved.";
 ```
