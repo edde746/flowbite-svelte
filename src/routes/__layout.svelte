@@ -56,7 +56,7 @@
   let sideBarListClass =
     "border-b border-gray-400 dark:border-gray-500 mb-2 px-4 text-base";
   // activeDropdownDiv, activeChildLi, buttonClass, dropdownLi
-  let footerClass = "p-4 bg-white sm:p-6 dark:bg-gray-800 mt-24";
+
   let socialMedia = [
     {
       link: "https://github.com/shinokada",
@@ -97,6 +97,8 @@
       children: [{ name: "License", link: "license" }],
     },
   ];
+  let allRightsReserved = "";
+  let copyrightYear = "";
 </script>
 
 <Navbar
@@ -239,4 +241,11 @@
     <slot />
   </div>
 </main>
-<SocialMediaFooter {footerClass} {socialMedia} {links} />
+<div class="py-16">
+  <SocialMediaFooter
+    {socialMedia}
+    {links}
+    {allRightsReserved}
+    {copyrightYear}
+  />
+</div>

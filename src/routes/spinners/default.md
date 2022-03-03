@@ -52,14 +52,12 @@ let align; // text-{left|center|right}
 <Spinner size="w-4 h-4"/>
 <Spinner size="w-6 h-6" />
 <Spinner size="w-8 h-8"/>
-<Spinner  size="w-10 h-10"/>
 </div>
 
 ```svelte
 <Spinner size="w-4 h-4"/>
 <Spinner size="w-6 h-6" />
 <Spinner size="w-8 h-8"/>
-<Spinner  size="w-10 h-10"/>
 ```
 
 
