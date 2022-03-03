@@ -241,7 +241,7 @@
     <slot />
   </div>
 </main>
-<div class="py-16">
+<div class="pt-16 pb-8">
   <SocialMediaFooter
     {socialMedia}
     {links}
