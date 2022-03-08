@@ -23,9 +23,9 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 <h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">BorderAlert Default Props</h2>
 
 ```js
-let color = "blue"; // {gray|red|yellow|green|indigo|purple|pink} 
-let alertId = "alert-border-1";
-let closeBtn = false;
+let color: string = "blue"; // {gray|red|yellow|green|indigo|purple|pink} 
+let alertId: string = "alert-border-1";
+let closeBtn: boolean = false;
 ```
 
 <h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Border Alert Examples</h2>
@@ -43,11 +43,11 @@ let closeBtn = false;
   A border alert without the close button.
 </BorderAlert>
 
-<BorderAlert alertId="border-alert-1" color="yellow" closeBtn="true">
+<BorderAlert alertId="border-alert-1" color="yellow" closeBtn>
   A border alert with the close button.
 </BorderAlert>
 
-<BorderAlert alertId="border-alert-2" color="red" closeBtn="true">
+<BorderAlert alertId="border-alert-2" color="red" closeBtn>
   A border alert with the close button.
 </BorderAlert>
 ```
@@ -65,11 +65,11 @@ let closeBtn = false;
     A border alert without the close button.
   </BorderAlert>
 
-  <BorderAlert alertId="border-alert-1" color="yellow" closeBtn="true">
+  <BorderAlert alertId="border-alert-1" color="yellow" closeBtn>
     A border alert with the close button.
   </BorderAlert>
 
-  <BorderAlert alertId="border-alert-2" color="red" closeBtn="true">
+  <BorderAlert alertId="border-alert-2" color="red" closeBtn>
     A border alert with the close button.
   </BorderAlert>
 </div>

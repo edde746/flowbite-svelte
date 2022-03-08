@@ -22,10 +22,10 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 
 <h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Alert Default Props</h2>
 
-```js
-let color = "blue"; // {gray|red|yellow|green|indigo|purple|pink} 
-let alertId = "alert-1";
-let closeBtn = false;
+```ts
+let color: string = "blue"; // {gray|red|yellow|green|indigo|purple|pink} 
+let alertId: string= "alert-1";
+let closeBtn: boolean = false;
 ```
 
 <h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Simple Alert Examples</h2>
@@ -35,31 +35,31 @@ let closeBtn = false;
     A simple info alert without a close button.
 </Alert>
 
-<Alert alertId="alert-gray" color="gray" closeBtn="true">
+<Alert alertId="alert-gray" color="gray" closeBtn">
   A simple info alert with a close button.
 </Alert>
 
-<Alert alertId="alert-green" color="green" closeBtn="true">
+<Alert alertId="alert-green" color="green" closeBtn>
   A simple info alert with a close button.
 </Alert>
 
-<Alert alertId="alert-red" color="red" closeBtn="true">
+<Alert alertId="alert-red" color="red" closeBtn>
   A simple info alert with a close button.
 </Alert>
 
-<Alert alertId="alert-purple" color="purple" closeBtn="true">
+<Alert alertId="alert-purple" color="purple" closeBtn>
   A simple info alert with a close button.
 </Alert>
 
-<Alert alertId="alert-yellow" color="yellow" closeBtn="true">
+<Alert alertId="alert-yellow" color="yellow" closeBtn>
   A simple info alert with a close button.
 </Alert>
 
-<Alert alertId="alert-indigo" color="indigo" closeBtn="true">
+<Alert alertId="alert-indigo" color="indigo" closeBtn>
   A simple info alert with a close button.
 </Alert>
 
-<Alert alertId="alert-pink" color="pink" closeBtn="true">
+<Alert alertId="alert-pink" color="pink" closeBtn>
   A simple info alert with a close button.
 </Alert>
 ```
@@ -69,31 +69,31 @@ let closeBtn = false;
     A simple info alert without a close button.
   </Alert>
 
-  <Alert alertId="alert-gray" color="gray" closeBtn="true">
+  <Alert alertId="alert-gray" color="gray" closeBtn>
     A simple info alert with a close button.
   </Alert>
 
-  <Alert alertId="alert-green" color="green" closeBtn="true">
+  <Alert alertId="alert-green" color="green" closeBtn>
     A simple info alert with a close button.
   </Alert>
 
-  <Alert alertId="alert-red" color="red" closeBtn="true">
+  <Alert alertId="alert-red" color="red" closeBtn>
     A simple info alert with a close button.
   </Alert>
 
-  <Alert alertId="alert-purple" color="purple" closeBtn="true">
+  <Alert alertId="alert-purple" color="purple" closeBtn>
     A simple info alert with a close button.
   </Alert>
 
-  <Alert alertId="alert-yellow" color="yellow" closeBtn="true">
+  <Alert alertId="alert-yellow" color="yellow" closeBtn>
     A simple info alert with a close button.
   </Alert>
 
-  <Alert alertId="alert-indigo" color="indigo" closeBtn="true">
+  <Alert alertId="alert-indigo" color="indigo" closeBtn>
     A simple info alert with a close button.
   </Alert>
 
-  <Alert alertId="alert-pink" color="pink" closeBtn="true">
+  <Alert alertId="alert-pink" color="pink" closeBtn>
     A simple info alert with a close button.
   </Alert>
 </div>

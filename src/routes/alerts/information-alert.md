@@ -23,11 +23,11 @@ Import Alert, BorderAlert, and InfoAlert and set variables in the script tag.
 
 <h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">InfoAlert Default Props</h2>
 
-```js
-let color = "blue"; // {gray|red|yellow|green|indigo|purple|pink}  
-let alertId = "alert-additional-content-1";
-let infoLink = false;
-let closeBtn = false;
+```ts
+let color: string = "blue"; // {gray|red|yellow|green|indigo|purple|pink}  
+let alertId: string = "alert-additional-content-1";
+let infoLink: string = undefined;
+let closeBtn: boolean = false;
 ```
 
 <h1 class="text-2xl w-full text-gray-900 dark:text-white py-4">Information Alert Examples</h1>
@@ -41,7 +41,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-2"
     color="green"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 2</span>
@@ -51,7 +51,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-3"
     color="red"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 3</span>
@@ -61,7 +61,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-4"
     color="yellow"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 4</span>
@@ -71,7 +71,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-5"
     color="gray"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 5</span>
@@ -81,7 +81,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-6"
     color="indigo"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 4</span>
@@ -91,7 +91,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-7"
     color="purple"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 4</span>
@@ -101,7 +101,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-8"
     color="pink"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 4</span>
@@ -119,7 +119,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-2"
     color="green"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 2</span>
@@ -129,7 +129,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-3"
     color="red"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 3</span>
@@ -139,7 +139,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-4"
     color="yellow"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 4</span>
@@ -149,7 +149,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-5"
     color="gray"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 5</span>
@@ -159,7 +159,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-6"
     color="indigo"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 4</span>
@@ -169,7 +169,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-7"
     color="purple"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 4</span>
@@ -179,7 +179,7 @@ let closeBtn = false;
   <InfoAlert
     alertId="info-alert-8"
     color="pink"
-    closeBtn="true"
+    closeBtn
     infoLink="/"
   >
     <span slot="header">Info header 4</span>

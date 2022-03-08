@@ -56,10 +56,6 @@
     "url": "https://github.com/shinokada/flowbite-svelte"
   },
   "dependencies": {
-    "@algolia/client-search": "^4.9.1",
-    "@types/react": ">= 16.8.0 < 18.0.0",
-    "flowbite": "^1.3.4",
-    "react": "17.0.2",
-    "react-dom": ">= 16.8.0 < 18.0.0"
+    "flowbite": "^1.3.4"
   }
 }
