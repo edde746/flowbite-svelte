@@ -84,5 +84,5 @@ import {Tooltip, Button} from 'flowbite-svelte'
 
 <h1 class="text-3xl w-full dark:text-white py-4">References</h1>
 
-<p class="dark:text-white py-4">Read more about <a href="https://flowbite-svelte.vercel.app/buttons" class="text-blue-600 hover:underline dark:text-blue-500">Buttons.</a></p>
-<p class="dark:text-white text-base"><a href="https://flowbite.com/docs/components/tooltips/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">Flowbite Tooltip</a></p>
+<p class="dark:text-white pt-4 w-full">Read more about <a href="https://flowbite-svelte.vercel.app/buttons" class="text-blue-600 hover:underline dark:text-blue-500">Buttons.</a></p>
+<p class="dark:text-white pt-4 w-full"><a href="https://flowbite.com/docs/components/tooltips/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">Flowbite Tooltip</a></p>

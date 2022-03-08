@@ -11,7 +11,7 @@ layout: doc
 </p>
 
 
-<p class="dark:text-white w-full text-lg py-2">This website uses Flowbite-Svelte components except the <a href="" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">sidebar menu</a>.</p>
+<p class="dark:text-white w-full text-lg py-2">This website uses Flowbite-Svelte components except the <a href="https://github.com/shinokada/svelte-sidebar" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">sidebar menu</a>.</p>
 
 
 <h1 class="text-2xl dark:text-white w-full pt-8 py-4">References</h1>

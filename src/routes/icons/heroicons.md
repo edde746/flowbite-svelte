@@ -37,15 +37,15 @@ let viewBox = "0 0 24 24"
 
 <div class="container flex flex-wrap justify-center rounded-xl my-4 mx-auto bg-gradient-to-r bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 p-2 sm:p-6">
 
-<AdjustmentsIconSolid className="h-10 w-10 text-blue-500 dark:text-red-300" />
-<BellIconOutline  className="h-10 w-10 text-red-500 dark:text-green-300" />
-<BriefcaseIconSolid  className="h-10 w-10 text-green-500 dark:text-indigo-300" />
-<ChartSquareBarIconSolid className="h-10 w-10 text-purple-500 dark:text-pink-300" />
-<TicketIconOutline className="h-10 w-10 text-pink-500 dark:text-indigo-300" />
-<CameraIconOutline className="h-10 w-10 text-indigo-500 dark:text-white" />
-<BellIconSolid className="h-10 w-10 text-gray-500 dark:text-yellow-500" />
+<AdjustmentsIconSolid className="h-8 w-8 text-blue-500 dark:text-red-300" />
+<BellIconOutline  className="h-8 w-8 text-red-500 dark:text-green-300" />
+<BriefcaseIconSolid  className="h-8 w-8 text-green-500 dark:text-indigo-300" />
+<ChartSquareBarIconSolid className="h-8 w-8 text-purple-500 dark:text-pink-300" />
+<TicketIconOutline className="h-8 w-8 text-pink-500 dark:text-indigo-300" />
+<CameraIconOutline className="h-8 w-8 text-indigo-500 dark:text-white" />
+<BellIconSolid className="h-8 w-8 text-gray-500 dark:text-yellow-500" />
 <ChevronLeftIconSolid
-  className="h-10 w-10 text-yellow-300 dark:text-white"
+  className="h-8 w-8 text-yellow-300 dark:text-white"
 />
 </div>
 
@@ -63,15 +63,15 @@ import {
 } from "@codewithshin/svelte-heroicons";
 </script>
 
-<AdjustmentsIconSolid className="h-10 w-10 text-blue-500 dark:text-blue-300" />
-<BellIconOutline  className="h-10 w-10 text-red-500 dark:text-purple-300" />
-<BriefcaseIconSolid  className="h-10 w-10 text-green-500 dark:text-indigo-300" />
-<ChartSquareBarIconSolid className="h-10 w-10 text-purple-500 dark:text-red-300" />
-<TicketIconOutline className="h-10 w-10 text-pink-500 dark:text-yellow-300" />
-<CameraIconOutline className="h-10 w-10 text-indigo-500 dark:text-white" />
-<BellIconSolid className="h-10 w-10 text-gray-500 dark:text-blue-500" />
+<AdjustmentsIconSolid className="h-8 w-8 text-blue-500 dark:text-blue-300" />
+<BellIconOutline  className="h-8 w-8 text-red-500 dark:text-purple-300" />
+<BriefcaseIconSolid  className="h-8 w-8 text-green-500 dark:text-indigo-300" />
+<ChartSquareBarIconSolid className="h-8 w-8 text-purple-500 dark:text-red-300" />
+<TicketIconOutline className="h-8 w-8 text-pink-500 dark:text-yellow-300" />
+<CameraIconOutline className="h-8 w-8 text-indigo-500 dark:text-white" />
+<BellIconSolid className="h-8 w-8 text-gray-500 dark:text-blue-500" />
 <ChevronLeftIconSolid
-  className="h-10 w-10 text-yellow-300 dark:text-white"
+  className="h-8 w-8 text-yellow-300 dark:text-white"
 />
 ```
 

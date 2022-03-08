@@ -32,9 +32,9 @@ let fill = "#000000"
 <FacebookIcon className="h-4 w-4 w-full" fill="#4287f5" />
 <GithubIcon fill="#66f5fa" />  
 <FacebookIcon className="h-8 w-8 w-full" fill="#02fa0b" />
-<GithubIcon className="h-10 w-10 w-full" fill="#6e7070" />
-<GitIcon className="h-12 w-12 w-full" fill="#bc02fa" />
-<GitIcon className="h-24 w-24 w-full" fill="#fa0202" />
+<GithubIcon className="h-8 w-8 w-full" fill="#6e7070" />
+<GitIcon className="h-8 w-8 w-full" fill="#bc02fa" />
+<GitIcon className="h-8 w-8 w-full" fill="#fa0202" />
 
 </div>
 
@@ -46,15 +46,15 @@ import { FacebookIcon, GithubIcon, GitIcon } from '@codewithshin/svelte-simpleic
 <FacebookIcon className="h-4 w-4 w-full" fill="#4287f5" />
 <GithubIcon fill="#66f5fa" />  
 <FacebookIcon className="h-8 w-8 w-full" fill="#02fa0b" />
-<GithubIcon className="h-10 w-10 w-full" fill="#6e7070" />
-<GitIcon className="h-12 w-12 w-full" fill="#bc02fa" />
-<GitIcon className="h-24 w-24 w-full" fill="#fa0202" />
+<GithubIcon className="h-8 w-8 w-full" fill="#6e7070" />
+<GitIcon className="h-8 w-8 w-full" fill="#bc02fa" />
+<GitIcon className="h-8 w-8 w-full" fill="#fa0202" />
 
 ```
 
 <h1 class="text-3xl w-full dark:text-white py-4">References</h1>
 
-<p class="w-full dark:text-white text-base"><a href="https://github.com/shinokada/svelte-simpleicons" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">- Svelte-simpleicons</a></p>
+<p class="w-full dark:text-white text-base"><a href="https://github.com/shinokada/svelte-simpleicons" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">Svelte-simpleicons</a></p>
 
-<p class="w-full dark:text-white text-base"><a href="https://simpleicons.org/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">- Simple Icons</a></p>
+<p class="w-full dark:text-white text-base"><a href="https://simpleicons.org/" target="_blank" class="text-blue-600 hover:underline dark:text-blue-500">Simple Icons</a></p>
 
