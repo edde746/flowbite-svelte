@@ -18,9 +18,9 @@ layout: doc
 <h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Props</h2>
 
 ```js
-let textSize = "text-xs"; // text-sm
+let textSize = "text-xs"; // 'text-xs'|'text-sm'|'text-base' |'text-lg' |'text-xl'|'text-2xl'|'text-3xl'|'text-4xl'
 let name = "Read more";
-let color = "blue"; // {gray|red|yellow|green|indigo|purple|pink} 
+let color = "blue"; // 'blue'| 'gray'| 'red'| 'yellow'| 'purple'| 'green'| 'indigo'| 'purple'| 'pink'
 ```
 
 <h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Size xs</h2>

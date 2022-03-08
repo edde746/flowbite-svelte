@@ -12,7 +12,7 @@ layout: doc
 <h2 class="text-2xl w-full text-gray-900 dark:text-white py-4">Button Props</h2>
 
 ```js
-let textSize = "text-sm";
+let textSize = "text-sm"; // 'text-xs'|'text-sm'|'text-base' |'text-lg' |'text-xl'|'text-2xl'|'text-3xl'|'text-4xl'
 let name = "Read more";
 let color = "purple2blue"; // cyan2blue| green2blue | purple2pink | pink2orange | teal2lime | red2yellow
 ```
